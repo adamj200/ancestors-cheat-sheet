@@ -1,683 +1,634 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <meta charset="utf-8">
-  <title>Ancestors: The Humankind Odyssey Cheat Sheet</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?">
-  <link rel="apple-touch-icon-precomposed" href="img/favicon-152.png">
-  <link rel="mask-icon" href="img/pinned-tab-icon.svg" color="#000000">
-  <meta name="description" content="Cheat sheet for Ancestors: The Humankind Odyssey. Checklist of things to do.">
-  <meta name="author" content="Zachary Kjellberg">
-  <meta name="mobile-web-app-capable" content="yes">
-  <link id="bootstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="nav-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#tabPlaythrough" data-toggle="tab" data-target="#tabPlaythrough,#btnHideCompleted">Playthrough</a></li>
-          <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Options</a></li>
-        </ul>
-        <!-- /.nav.navbar-nav -->
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h1>Ancestors: The Humankind Odyssey Cheat Sheet</h1>
-      </div>
-    </div>
-
-    <div class="tab-content">
-      <!-- Hide Completed Toggle -->
-      <div class="tab-pane active in" id="btnHideCompleted">
-        <div class="btn-group" role="group" data-toggle="buttons">
-          <label class="btn btn-default">
-            <input type="checkbox" id="toggleHideCompleted">
-            <span class="glyphicon glyphicon-eye-close"></span>
-            <span class="glyphicon glyphicon-eye-open"></span>
-            Hide Completed
-            <a class="btn btn-default btn-sm fadingbutton togglehide" onclick="$('#toggleHideCompleted').click();">
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Hide Completed
-            </a>
-          </label>
-        </div>
-      </div>
-      <!-- PLAYTHROUGH START -->
-      <div class="tab-pane active" id="tabPlaythrough">
-        <!-- Toolbar -->
-
-        <h2>Playthrough Checklist <span id="playthrough_overall_total"></span></h2>
-        <ul class="table_of_contents">
-		  <li><a href="#From_Irascible_Aggressors">Master of Escape - From Irascible Aggressors</a> <span id="playthrough_nav_totals_1"></span></li>
-		  <li><a href="#From_Crawling_Threats">Master of Escape - From Crawling Threats</a> <span id="playthrough_nav_totals_2"></span></li>
-		  <li><a href="#From_Predators">Master of Escape - From Predators</a> <span id="playthrough_nav_totals_3"></span></li>
-		  <li><a href="#Jungles_Master_Explorer">Jungle's Master Explorer</a> <span id="playthrough_nav_totals_4"></span></li>
-		  <li><a href="#Canyons_Master_Explorer">Canyon's Master Explorer</a> <span id="playthrough_nav_totals_5"></span></li>
-		  <li><a href="#Lakes_Master_Explorer">Lake's Master Explorer</a> <span id="playthrough_nav_totals_6"></span></li>
-		  <li><a href="#Ocean_Regions_Master_Explorer">Ocean Region's Master Explorer</a> <span id="playthrough_nav_totals_7"></span></li>
-		  <li><a href="#Savannas_Master_Explorer">Savanna's Master Explorer</a> <span id="playthrough_nav_totals_8"></span></li>
-		  <li><a href="#Woodlands_Master_Explorer">Woodland's Master Explorer</a> <span id="playthrough_nav_totals_9"></span></li>
-		  <li><a href="#Caverns_Master_Explorer">Cavern's Master Explorer</a> <span id="playthrough_nav_totals_10"></span></li>
-		  <li><a href="#Birth_of_a_Cartographer">Birth of a Cartographer</a> <span id="playthrough_nav_totals_11"></span></li>
-		  <li><a href="#Spiritual_Inception">Spiritual Inception</a> <span id="playthrough_nav_totals_12"></span></li>
-		  <li><a href="#Being_One_With_The_Universe">Being One With The Universe</a> <span id="playthrough_nav_totals_13"></span></li>
-		  <li><a href="#Expand">Expand</a> <span id="playthrough_nav_totals_14"></span></li>
-		  <li><a href="#Fearless_Leader">Fearless Leader</a> <span id="playthrough_nav_totals_15"></span></li>
-		  <li><a href="#Feared_Rival">Feared Rival</a> <span id="playthrough_nav_totals_16"></span></li>
-		  <li><a href="#Feared_Species">Feared Species</a> <span id="playthrough_nav_totals_17"></span></li>
-		  <li><a href="#Feared_Enemy">Feared Enemy</a> <span id="playthrough_nav_totals_18"></span></li>
-		  <li><a href="#Feared_Predator">Feared Predator</a> <span id="playthrough_nav_totals_19"></span></li>
-		  <li><a href="#Brave_Predator">Brave Predator</a> <span id="playthrough_nav_totals_44"></span></li>
-		  <li><a href="#Apex_Predator">Apex Predator</a> <span id="playthrough_nav_totals_20"></span></li>
-		  <li><a href="#Generous_Leader">Generous Leader</a> <span id="playthrough_nav_totals_21"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Crocodile">Astute Dominator of the Crocodile</a> <span id="playthrough_nav_totals_22"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Elephant">Astute Dominator of the Elephant</a> <span id="playthrough_nav_totals_23"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Hippopotamus">Astute Dominator of the Hippopotamus</a> <span id="playthrough_nav_totals_24"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Hyena">Astute Dominator of the Hyena</a> <span id="playthrough_nav_totals_25"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Jackal">Astute Dominator of the Jackal</a> <span id="playthrough_nav_totals_26"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Machairodus">Astute Dominator of the Machairodus</a> <span id="playthrough_nav_totals_27"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Otter">Astute Dominator of the Otter</a> <span id="playthrough_nav_totals_28"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Rock_Python">Astute Dominator of the Rock Python</a> <span id="playthrough_nav_totals_29"></span></li>
-		  <li><a href="#Astute_Dominator_of_the_Rhinoceros">Astute Dominator of the Rhinoceros</a> <span id="playthrough_nav_totals_30"></span></li>
-		  <li><a href="#Territorial_Dominance">Territorial Dominance</a> <span id="playthrough_nav_totals_31"></span></li>
-		  <li><a href="#Craftsmanship_Pioneer">Craftsmanship Pioneer</a> <span id="playthrough_nav_totals_32"></span></li>
-		  <li><a href="#Advanced_Problem_Solver">Advanced Problem Solver</a> <span id="playthrough_nav_totals_33"></span></li>
-		  <li><a href="#Maturing_Hunter">Maturing Hunter</a> <span id="playthrough_nav_totals_34"></span></li>
-		  <li><a href="#Gifted_For_Associative_Learnings">Gifted For Associative Learnings</a> <span id="playthrough_nav_totals_35"></span></li>
-		  <li><a href="#Leading_Tool_User_-_Rocks">Leading Tool User - Rocks</a> <span id="playthrough_nav_totals_36"></span></li>
-		  <li><a href="#Leading_Tool_User_-_Wood_and_Vegetal">Leading Tool User - Wood and Vegetal</a> <span id="playthrough_nav_totals_37"></span></li>
-		  <li><a href="#Maximized_Neuronal_Development_-_Early_Phases">Maximized Neuronal Development - Early Phases</a> <span id="playthrough_nav_totals_38"></span></li>
-		  <li><a href="#Maximized_Neuronal_Development_-_Maturing_Phases">Maximized Neuronal Development - Maturing Phases</a> <span id="playthrough_nav_totals_39"></span></li>
-		  <li><a href="#Maximized_Neuronal_Development_-_Blooming_Phases">Maximized Neuronal Development - Blooming Phases</a> <span id="playthrough_nav_totals_40"></span></li>
-		  <li><a href="#Emergence_of_Scientific_Thinking">Emergence of Scientific Thinking</a> <span id="playthrough_nav_totals_41"></span></li>
-		  <li><a href="#Foundation_of_Medical_Insight">Foundation of Medical Insight</a> <span id="playthrough_nav_totals_42"></span></li>
-		  <li><a href="#Adaptive_Metabolism">Adaptive Metabolism</a> <span id="playthrough_nav_totals_43"></span></li>
-        </ul>
-
-        <div class="form-group">
-          <input type="search" id="playthrough_search" class="form-control" placeholder="Start typing to filter results..." />
-        </div>
-
-        <div id="playthrough_list">
-
-          <h3 id="From_Irascible_Aggressors"><a href="#From_Irascible_Aggressors_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Irascible_Threats">Master of Escape - From Irascible Aggressors</a> <span id="playthrough_totals_1"></span></h3>
-          <ul id="From_Irascible_Aggressors_col" class="collapse in">
-            <li data-id="playthrough_1_1" class="f_none">Successfully dodged an attack from an <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a> at least twice</li>
-            <li data-id="playthrough_1_2" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Miocene Elephant</a> at least twice</li>
-            <li data-id="playthrough_1_3" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a> at least twice</li>
-            <li data-id="playthrough_1_4" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a> at least twice</li>
-            <li data-id="playthrough_1_5" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Hippopotamus">Hippopotamus</a> at least twice</li>
-            <li data-id="playthrough_1_6" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a> at least twice</li>
-          </ul>
-
-          <h3 id="From_Crawling_Threats"><a href="#From_Crawling_Threats_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Crawling_Threats">Master of Escape - From Crawling Threats</a> <span id="playthrough_totals_2"></span></h3>
-          <ul id="From_Crawling_Threats_col" class="collapse in">
-            <li data-id="playthrough_2_1" class="f_none">Successfully dodged an attack from an <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a> at least twice</li>
-            <li data-id="playthrough_2_2" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a> at least twice</li>
-            <li data-id="playthrough_2_3" class="f_none">Successfully dodged an attack from an <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a> at least twice</li>
-            <li data-id="playthrough_2_4" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a> at least twice</li>
-          </ul>
-
-          <h3 id="From_Predators"><a href="#From_Predators_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Predators">Master of Escape - From Predators</a> <span id="playthrough_totals_3"></span></h3>
-          <ul id="From_Predators_col" class="collapse in">
-            <li data-id="playthrough_3_1" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a> at least twice</li>
-            <li data-id="playthrough_3_2" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a> at least twice</li>
-            <li data-id="playthrough_3_3" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a> at least twice</li>
-            <li data-id="playthrough_3_4" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Golden_Machairodus">Golden Machairodus</a> at least twice</li>
-            <li data-id="playthrough_3_5" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Black_Machairodus">Black Machairodus</a> at least twice</li>
-            <li data-id="playthrough_3_6" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/White_Machairodus">White Machairodus</a> at least twice</li>
-            <li data-id="playthrough_3_7" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Bateleur_Eagle">Bateleur Eagle</a> at least twice</li>
-            <li data-id="playthrough_3_8" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_Pelican">Miocene Pelican</a> at least twice</li>
-          </ul>
-
-          <h3 id="Jungles_Master_Explorer"><a href="#Jungles_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Jungle">Jungle's Master Explorer</a> <span id="playthrough_totals_4"></span></h3>
-          <ul id="Jungles_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_4_1" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Hidden_Waterfall_Oasis">Hidden Waterfall Oasis</a></li>
-            <li data-id="playthrough_4_2" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Under-The-Cliff_Oasis">Under-The-Cliff Oasis</a></li>
-            <li data-id="playthrough_4_3" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Cascade_Oasis">Cascade Oasis</a></li>
-            <li data-id="playthrough_4_4" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Lone_Kapok_Oasis">Lone Kapok Oasis</a></li>
-            <li data-id="playthrough_4_5" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Head-Of-Stone_Oasis">Head-Of-Stone Oasis</a></li>
-            <li data-id="playthrough_4_6" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Jut-Out_Boulder_Oasis">Jut-Out Boulder Oasis</a></li>
-          </ul>
-
-          <h3 id="Canyons_Master_Explorer"><a href="#Canyons_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Canyon">Canyon's Master Explorer</a> <span id="playthrough_totals_5"></span></h3>
-          <ul id="Canyons_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_5_1" class="f_none">Discovered the <a href="https://ancestors.fandom.com/wiki/Canyon%27s_Entrance_Oasis">Canyon's Entrance Oasis</a></li>
-            <li data-id="playthrough_5_2" class="f_none">Discovered the Canyon's <a href="https://ancestors.fandom.com/wiki/Shallow_Hideout_Oasis">Shallow Hideout Oasis</a></li>
-          </ul>
-
-          <h3 id="Lakes_Master_Explorer"><a href="#Lakes_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Great_Lake">Lake's Master Explorer</a> <span id="playthrough_totals_6"></span></h3>
-          <ul id="Lakes_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_6_1" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Split_Waterfall_Oasis">Split Waterfall Oasis</a></li>
-            <li data-id="playthrough_6_2" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Rockslide_Oasis">Rockslide Oasis</a></li>
-            <li data-id="playthrough_6_3" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Cave%27s_Mouth_Oasis">Cave's Mouth Oasis</a></li>
-            <li data-id="playthrough_6_4" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Under-The-Falls_Oasis">Under-The-Falls Oasis</a></li>
-            <li data-id="playthrough_6_5" class="f_none">Discovered the <a href="https://ancestors.fandom.com/wiki/Lakeside_Oasis">Lakeside Oasis</a></li>
-          </ul>
-
-          <h3 id="Ocean_Regions_Master_Explorer"><a href="#Ocean_Regions_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Ocean">Ocean Region's Master Explorer</a> <span id="playthrough_totals_7"></span></h3>
-          <ul id="Ocean_Regions_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_7_1" class="f_none">Discovered the Ocean's <a href="https://ancestors.fandom.com/wiki/Last_Shelter_Oasis">Last Shelter Oasis</a></li>
-            <li data-id="playthrough_7_2" class="f_none">Discovered the Ocean's <a href="https://ancestors.fandom.com/wiki/Sand_Garden_Oasis">Sand Garden Oasis</a></li>
-          </ul>
-
-          <h3 id="Savannas_Master_Explorer"><a href="#Savannas_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Savanna">Savanna's Master Explorer</a> <span id="playthrough_totals_8"></span></h3>
-          <ul id="Savannas_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_8_1" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Khat_Trees_Oasis">Khat Trees Oasis</a></li>
-            <li data-id="playthrough_8_2" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Rock_Arrow_Oasis">Rock Arrow Oasis</a></li>
-            <li data-id="playthrough_8_3" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Hipparions%27_Pond_Oasis">Hipparions' Pond Oasis</a></li>
-            <li data-id="playthrough_8_4" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Buffalo%27s_Basin_Oasis">Buffalo's Basin Oasis</a></li>
-            <li data-id="playthrough_8_5" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Bulky_Arch_Oasis">Bulky Arch Oasis</a></li>
-			<li data-id="playthrough_8_6" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Two_Trunks_Lagoon_Oasis">Two Trunks Lagoon Oasis</a></li>
-            <li data-id="playthrough_8_7" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Baobabs_Oasis">Baobabs Oasis</a></li>
-            <li data-id="playthrough_8_8" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Hidden_Water_Oasis">Hidden Water Oasis</a></li>
-            <li data-id="playthrough_8_9" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Pond_%26_Puddle_Oasis">Pond & Puddle Oasis</a></li>
-            <li data-id="playthrough_8_10" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Raised_Refuge_Oasis">Raised Refuge Oasis</a></li>
-			<li data-id="playthrough_8_11" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Drying_Basin_Oasis">Drying Basin Oasis</a></li>
-          </ul>
-
-          <h3 id="Woodlands_Master_Explorer"><a href="#Woodlands_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Woodland">Woodland's Master Explorer</a> <span id="playthrough_totals_9"></span></h3>
-          <ul id="Woodlands_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_9_1" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Rocky_Tarn_Oasis">Rocky Tarn Oasis</a></li>
-            <li data-id="playthrough_9_2" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Hillock_Oasis">Hillock Oasis</a></li>
-            <li data-id="playthrough_9_3" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Hollow_Pond_Oasis">Hollow Pond Oasis</a></li>
-            <li data-id="playthrough_9_4" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Leaning_Trunk_Oasis">Leaning Trunk Oasis</a></li>
-            <li data-id="playthrough_9_5" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Tunnel_Mouth_Oasis">Tunnel Mouth Oasis</a></li>
-			<li data-id="playthrough_9_6" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Around-The-Tree_Oasis">Around-The-Tree Oasis</a></li>
-            <li data-id="playthrough_9_7" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Savanna%27s_Border_Oasis">Savanna Border Oasis</a></li>
-          </ul>
-
-          <h3 id="Caverns_Master_Explorer"><a href="#Caverns_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Caves">Cavern's Master Explorer</a> <span id="playthrough_totals_10"></span></h3>
-          <ul id="Caverns_Master_Explorer_col" class="collapse in">
-            <li data-id="playthrough_10_1" class="f_none">Discovered the Cavern's <a href="https://ancestors.fandom.com/wiki/Deep_Enclave_Oasis">Deep Enclave Oasis</a></li>
-            <li data-id="playthrough_10_2" class="f_none">Discovered the Cavern's <a href="https://ancestors.fandom.com/wiki/Butterfly_Tree_Oasis">Butterfly Tree Oasis</a></li>
-            <li data-id="playthrough_10_3" class="f_none">Discovered the Cavern's <a href="https://ancestors.fandom.com/wiki/Buried_Garden_Oasis">Buried Garden Oasis</a></li>
-          </ul>
-
-          <h3 id="Birth_of_a_Cartographer"><a href="#Birth_of_a_Cartographer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Locations#Landmarks_-_Memorable_Locations">Birth of a Cartographer</a> <span id="playthrough_totals_11"></span></h3>
-          <ul id="Birth_of_a_Cartographer_col" class="collapse in">
-            <li data-id="playthrough_11_1" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Father_Tree">The Father Tree</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_2" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Little_Swamp">The Little Swamp</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_3" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Sister_Arches">The Sister Arches</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_4" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Cliff_Cascade">The Cliff Cascade</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_5" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Enclosed_Waterfall">The Enclosed Waterfall</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_6" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Two_Rivers%27_Junction">The Two Rivers' Junction</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_7" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Orchard">The Orchard</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_8" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Big_Swamp">The Big Swamp</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_9" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Highland_Plateau">The Highland Plateau</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_10" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Highland_Peak">The Highland Peak</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_11" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Crocodiles_Island">The Crocodiles Island</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_12" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Cave%27s_Secluded_Entrance">The Cave's Secluded Entrance</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_13" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Great_Lake">The Great Lake</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_14" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Green_Rock_Pathway">The Green Rock Pathway</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_15" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Rocky_Pass">The Rocky Pass</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_16" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Covered_Gorge">The Covered Gorge</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_17" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Hidden_Pit">The Hidden Pit</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_18" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Woodland_Swamp">The Woodland Swamp</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_19" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Sibling_Falls%27_Pond">The Sibling Falls' Pond</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_20" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Lake%27s_Swamp">The Lake's Swamp</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_21" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/Where_The_Rivers_Meet">Where The Rivers Meet</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_22" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Otters%27_Den">The Otters' Den</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_23" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Brothers_Megaliths">The Brothers Megaliths</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_24" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Thousand_Floors_Waterfall">The Thousand Floors Waterfall</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_25" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Woodland%27s_Dead_Zone">The Woodland's Dead Zone</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_26" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Erupted_Rock">The Erupted Rock</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_27" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Door_To_Savanna">The Door To Savanna</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_28" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Dying_Waterfall">The Dying Waterfall</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_29" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Broken_Arch">The Broken Arch</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_30" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Funnelling_Arch">The Funnelling Arch</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_31" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Desert%27s_Gate">The Desert's Gate</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_32" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Beach_Tower">The Beach Tower</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_33" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/Mussels%27_Beach">Mussels' Beach</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_34" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Ocean%27s_Arch">The Ocean's Arch</a> as a Memorable Location</li>
-			<li data-id="playthrough_11_35" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Eroded_Cliffs">The Eroded Cliffs</a> as a Memorable Location</li>
-          </ul>
-
-          <h3 id="Spiritual_Inception"><a href="#Spiritual_Inception_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Precious_Stone">Spiritual Inception</a> <span id="playthrough_totals_12"></span></h3>
-          <ul id="Spiritual_Inception_col" class="collapse in">
-            <li data-id="playthrough_12_1" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Blue_Agate">Blue Agate</a> as a precious stone</li>
-			<li data-id="playthrough_12_2" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Emerald">Emerald</a> as a precious stone</li>
-			<li data-id="playthrough_12_3" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Ruby">Ruby</a> as a precious stone</li>
-			<li data-id="playthrough_12_4" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Tourmaline">Tourmaline</a> as a precious stone</li>
-			<li data-id="playthrough_12_5" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Sphalerite">Sphalerite</a> as a precious stone</li>
-          </ul>
-
-          <h3 id="Being_One_With_The_Universe"><a href="#Being_One_With_The_Universe_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Meteorite">Being One With The Universe</a> <span id="playthrough_totals_13"></span></h3>
-          <ul id="Being_One_With_The_Universe_col" class="collapse in">
-			<li data-id="playthrough_13_1" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Swamp%27s_meteorite_site">Little Swamp site</a></li>
-			<li data-id="playthrough_13_2" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Dead_Tree%27s_meteorite_site">Dead Tree site</a></li>
-			<li data-id="playthrough_13_3" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Island%27s_meteorite_site">Island site</a></li>
-			<li data-id="playthrough_13_4" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Flat_Boulder%27s_meteorite_site">Flat Boulder site</a></li>
-			<li data-id="playthrough_13_5" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Lake_Clearing%27s_meteorite_site">Lake Clearing site</a></li>
-			<li data-id="playthrough_13_6" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Over-The-Cave%27s_meteorite_site">Over-The-Cave site</a></li>
-			<li data-id="playthrough_13_7" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Carissa_Clearing%27s_meteorite_site">Carissa Clearing site</a></li>
-			<li data-id="playthrough_13_8" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Savanna%27s_Boulders_Enclave%27s_meteorite_site">Savanna's Boulders Enclave site</a></li>
-			<li data-id="playthrough_13_9" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Single_Kapok%27s_meteorite_site">Single Kapok site</a></li>
-			<li data-id="playthrough_13_10" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Rock_Boundaries%27_meteorite_site">Rock Boundary site</a></li>
-			<li data-id="playthrough_13_11" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Baobabs%27_meteorite_site">Baobabs site</a></li>
-			<li data-id="playthrough_13_12" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Desert%27s_meteorite_site">Desert site</a></li>
-          </ul>
-
-          <h3 id="Expand"><a href="#Expand_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Construction">Expand</a> <span id="playthrough_totals_14"></span></h3>
-          <ul id="Expand_col" class="collapse in">
-		  	<li data-id="playthrough_14_1" class="f_none">Built a <a href="https://ancestors.fandom.com/wiki/Sleep_Spot">Sleep Spot</a> at least 5 times</li>
-			<li data-id="playthrough_14_2" class="f_none">Built a <a href="https://ancestors.fandom.com/wiki/Thornbush_Wall">Thornbush Wall</a> at least 5 times</li>
-			<li data-id="playthrough_14_3" class="f_none">Built a <a href="https://ancestors.fandom.com/wiki/Branch_Barrier">Branch Barrier</a> at least 5 times</li>
-          </ul>
-
-          <h3 id="Fearless_Leader"><a href="#Fearless_Leader_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Fear#Fear_of_the_Unknown">Fearless Leader</a> <span id="playthrough_totals_15"></span></h3>
-          <ul id="Fearless_Leader_col" class="collapse in">
-			<li data-id="playthrough_15_1" class="f_none">Conquered the Fear Of The Unknown 5 times</li>
-			<li data-id="playthrough_15_2" class="f_none">Conquered the Fear Of The Unknown 10 times</li>
-			<li data-id="playthrough_15_3" class="f_none">Conquered the Fear Of The Unknown 15 times</li>
-			<li data-id="playthrough_15_4" class="f_none">Conquered the Fear Of The Unknown 20 times</li>
-          </ul>
-
-          <h3 id="Feared_Rival"><a href="#Feared_Rival_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Intimidate">Feared Rival</a> <span id="playthrough_totals_16"></span></h3>
-          <ul id="Feared_Rival_col" class="collapse in">
-			<li data-id="playthrough_16_1" class="f_none">Intimidated an <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_16_2" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Miocene Elephant</a></li>
-			<li data-id="playthrough_16_3" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
-			<li data-id="playthrough_16_4" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Hippopotamus">Hippopotamus</a></li>
-			<li data-id="playthrough_16_5" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-			<li data-id="playthrough_16_6" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a></li>
-          </ul>
-
-          <h3 id="Feared_Species"><a href="#Feared_Species_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Intimidate">Feared Species</a> <span id="playthrough_totals_17"></span></h3>
-          <ul id="Feared_Species_col" class="collapse in">
-		  	<li data-id="playthrough_17_1" class="f_none">Intimidated an <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-			<li data-id="playthrough_17_2" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a></li>
-			<li data-id="playthrough_17_3" class="f_none">Intimidated an <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_17_4" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-          </ul>
-
-          <h3 id="Feared_Enemy"><a href="#Feared_Enemy_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Intimidate">Feared Enemy</a> <span id="playthrough_totals_18"></span></h3>
-          <ul id="Feared_Enemy_col" class="collapse in">
-			<li data-id="playthrough_18_1" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
-			<li data-id="playthrough_18_2" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_18_3" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_18_4" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Golden_Machairodus">Golden Machairodus</a></li>
-			<li data-id="playthrough_18_5" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Black_Machairodus">Black Machairodus</a></li>
-			<li data-id="playthrough_18_6" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/White_Machairodus">White Machairodus</a></li>
-          </ul>
-
-          <h3 id="Feared_Predator"><a href="#Feared_Predator_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Irascible_Threats">Feared Predator</a> <span id="playthrough_totals_19"></span></h3>
-          <ul id="Feared_Predator_col" class="collapse in">
-			<li data-id="playthrough_19_1" class="f_none">Killed an <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_19_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Miocene Elephant</a></li>
-			<li data-id="playthrough_19_3" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
-			<li data-id="playthrough_19_4" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Hippopotamus">Hippopotamus</a></li>
-			<li data-id="playthrough_19_5" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-			<li data-id="playthrough_19_6" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a></li>
-          </ul>
-		  
-		  <h3 id="Brave_Predator"><a href="#Brave_Predator_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Crawling_Threats">Brave Predator</a> <span id="playthrough_totals_44"></span></h3>
-          <ul id="Brave_Predator_col" class="collapse in">
-			<li data-id="playthrough_44_1" class="f_none">Killed an <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-			<li data-id="playthrough_44_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a></li>
-			<li data-id="playthrough_44_3" class="f_none">Killed an <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_44_4" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-          </ul>
-
-          <h3 id="Apex_Predator"><a href="#Apex_Predator_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Predators">Apex Predator</a> <span id="playthrough_totals_20"></span></h3>
-          <ul id="Apex_Predator_col" class="collapse in">
-			<li data-id="playthrough_20_1" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
-			<li data-id="playthrough_20_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_20_3" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_20_4" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Golden_Machairodus">Golden Machairodus</a></li>
-			<li data-id="playthrough_20_5" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Black_Machairodus">Black Machairodus</a></li>
-			<li data-id="playthrough_20_6" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/White_Machairodus">White Machairodus</a></li>
-			<li data-id="playthrough_20_7" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Bateleur_Eagle">Bateleur Eagle</a></li>
-			<li data-id="playthrough_20_8" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_Pelican">Miocene Pelican</a></li>
-          </ul>
-
-          <h3 id="Generous_Leader"><a href="#Generous_Leader_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Recruiting">Generous Leader</a> <span id="playthrough_totals_21"></span></h3>
-          <ul id="Generous_Leader_col" class="collapse in">
-			<li data-id="playthrough_21_1" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Hungry_Outsider">hungry outsider</a> to have a new clan member</li>
-			<li data-id="playthrough_21_2" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Thirst_Outsider">thirsty outsider</a> to have a new clan member</li>
-			<li data-id="playthrough_21_3" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Scared_Outsider">scared outsider</a> to have a new clan member</li>
-			<li data-id="playthrough_21_4" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Poisoned_Outsider">poisoned outsider</a> to have a new clan member</li>
-			<li data-id="playthrough_21_5" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Injured_Outsider">injured outsider</a> to have a new clan member</li>
-          </ul>
-
-          <h3 id="Astute_Dominator_of_the_Crocodile"><a href="#Astute_Dominator_of_the_Crocodile_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Astute Dominator of the Crocodile</a> <span id="playthrough_totals_22"></span></h3>
-          <ul id="Astute_Dominator_of_the_Crocodile_col" class="collapse in">
-			<li data-id="playthrough_22_1" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_22_2" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
-			<li data-id="playthrough_22_3" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_22_4" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_22_5" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_22_6" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_22_7" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
-			<li data-id="playthrough_22_8" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
-			<li data-id="playthrough_22_9" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-			<li data-id="playthrough_22_10" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Elephant"><a href="#Astute_Dominator_of_the_Elephant_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Astute Dominator of the Elephant</a> <span id="playthrough_totals_23"></span></h3>
-          <ul id="Astute_Dominator_of_the_Elephant_col" class="collapse in">
-			<li data-id="playthrough_23_1" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_23_2" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
-			<li data-id="playthrough_23_3" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_23_4" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_23_5" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_23_6" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_23_7" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
-			<li data-id="playthrough_23_8" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-			<li data-id="playthrough_23_9" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Hippopotamus"><a href="#Astute_Dominator_of_the_Hippopotamus_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Hippopotamus">Astute Dominator of the Hippopotamus</a> <span id="playthrough_totals_24"></span></h3>
-          <ul id="Astute_Dominator_of_the_Hippopotamus_col" class="collapse in">
-			<li data-id="playthrough_24_1" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
-			<li data-id="playthrough_24_2" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_24_3" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_24_4" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
-			<li data-id="playthrough_24_5" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
-			<li data-id="playthrough_24_6" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Hyena"><a href="#Astute_Dominator_of_the_Hyena_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Hyena">Astute Dominator of the Hyena</a> <span id="playthrough_totals_25"></span></h3>
-          <ul id="Astute_Dominator_of_the_Hyena_col" class="collapse in">
-			<li data-id="playthrough_25_1" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_25_2" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
-			<li data-id="playthrough_25_3" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_25_4" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_25_5" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_25_6" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-			<li data-id="playthrough_25_7" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-			<li data-id="playthrough_25_8" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Jackal"><a href="#Astute_Dominator_of_the_Jackal_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Astute Dominator of the Jackal</a> <span id="playthrough_totals_26"></span></h3>
-          <ul id="Astute_Dominator_of_the_Jackal_col" class="collapse in">
-			<li data-id="playthrough_26_1" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
-			<li data-id="playthrough_26_2" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_26_3" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_26_4" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-			<li data-id="playthrough_26_5" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-			<li data-id="playthrough_26_6" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Machairodus"><a href="#Astute_Dominator_of_the_Machairodus_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Machairodus">Astute Dominator of the Machairodus</a> <span id="playthrough_totals_27"></span></h3>
-          <ul id="Astute_Dominator_of_the_Machairodus_col" class="collapse in">
-			<li data-id="playthrough_27_1" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_27_2" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
-			<li data-id="playthrough_27_3" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
-			<li data-id="playthrough_27_4" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_27_5" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_27_6" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_27_7" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_27_8" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
-			<li data-id="playthrough_27_9" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
-			<li data-id="playthrough_27_10" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a></li>
-			<li data-id="playthrough_27_11" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-			<li data-id="playthrough_27_12" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Otter"><a href="#Astute_Dominator_of_the_Otter_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Astute Dominator of the Otter</a> <span id="playthrough_totals_28"></span></h3>
-          <ul id="Astute_Dominator_of_the_Otter_col" class="collapse in">
-			<li data-id="playthrough_28_1" class="f_none">Made the Miocene African Otter kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Rock_Python"><a href="#Astute_Dominator_of_the_Rock_Python_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/African_Rock_Python">Astute Dominator of the Rock Python</a> <span id="playthrough_totals_29"></span></h3>
-          <ul id="Astute_Dominator_of_the_Rock_Python_col" class="collapse in">
-			<li data-id="playthrough_29_1" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
-			<li data-id="playthrough_29_2" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_29_3" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_29_4" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
-			<li data-id="playthrough_29_5" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
-			<li data-id="playthrough_29_6" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
-          </ul>
-		  
-		  <h3 id="Astute_Dominator_of_the_Rhinoceros"><a href="#Astute_Dominator_of_the_Rhinoceros_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Astute Dominator of the Rhinoceros</a> <span id="playthrough_totals_30"></span></h3>
-          <ul id="Astute_Dominator_of_the_Rhinoceros_col" class="collapse in">
-			<li data-id="playthrough_30_1" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
-			<li data-id="playthrough_30_2" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
-			<li data-id="playthrough_30_3" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
-			<li data-id="playthrough_30_4" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
-			<li data-id="playthrough_30_5" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
-			<li data-id="playthrough_30_6" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
-          </ul>
-		  
-		  <h3 id="Territorial_Dominance"><a href="#Territorial_Dominance_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Settle">Territorial Dominance</a> <span id="playthrough_totals_31"></span></h3>
-          <ul id="Territorial_Dominance_col" class="collapse in">
-			<li data-id="playthrough_31_1" class="f_none">Established a new Clan Settlement for a clan of between 2 and 3 clan members</a></li>
-			<li data-id="playthrough_31_2" class="f_none">Established a new Clan Settlement for a clan of between 4 and 6 clan members</a></li>
-			<li data-id="playthrough_31_3" class="f_none">Established a new Clan Settlement for a clan of between 7 and 9 clan members</a></li>
-			<li data-id="playthrough_31_4" class="f_none">Established a new Clan Settlement for a clan of between 10 and 12 clan members</a></li>
-			<li data-id="playthrough_31_5" class="f_none">Established a new Clan Settlement for a clan of between 13 and 15 clan members</a></li>
-			<li data-id="playthrough_31_6" class="f_none">Established a new Clan Settlement for a clan of between 16 and 18 clan members</a></li>
-          </ul>
-		  
-		  <h3 id="Craftsmanship_Pioneer"><a href="#Craftsmanship_Pioneer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Tools">Craftsmanship Pioneer</a> <span id="playthrough_totals_32"></span></h3>
-          <ul id="Craftsmanship_Pioneer_col" class="collapse in">
-			<li data-id="playthrough_32_1" class="f_none">Successfully crafted a <a href="https://ancestors.fandom.com/wiki/Basalt_Chopper">Basalt Chopper</a> at least 5 times</li>
-			<li data-id="playthrough_32_2" class="f_none">Successfully crafted a <a href="https://ancestors.fandom.com/wiki/Sharpened_Stick">Sharpened Stick</a> at least 5 times</li>
-			<li data-id="playthrough_32_3" class="f_none">Successfully crafted a <a href="https://ancestors.fandom.com/wiki/Granite_Grinder">Granite Grinder</a> at least 5 times</li>
-			<li data-id="playthrough_32_4" class="f_none">Successfully crafted an <a href="https://ancestors.fandom.com/wiki/Basalt_Chopper">Obsidian Scraper</a> at least 5 times</li>
-          </ul>
-		  
-		  <h3 id="Advanced_Problem_Solver"><a href="#Advanced_Problem_Solver_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Gathering_Spot">Advanced Problem Solver</a> <span id="playthrough_totals_33"></span></h3>
-          <ul id="Advanced_Problem_Solver_col" class="collapse in">
-			<li data-id="playthrough_33_1" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Liftable_Rock">Liftable Rock</a> with the right tool at least twice</li>
-			<li data-id="playthrough_33_2" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Hole_To_Poke">Hole To Poke</a> with the right tool at least twice</li>
-			<li data-id="playthrough_33_3" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Fishing_Spot">Fishing Spot</a> with the right tool at least twice</li>
-			<li data-id="playthrough_33_4" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Termite_Mound">Termite Mound</a> with the right tool at least twice</li>
-			<li data-id="playthrough_33_5" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Beehive">Beehive</a> with the right tool at least twice</li>
-			<li data-id="playthrough_33_6" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Carcass">Carcass</a> of any sort with the right tool at least twice</li>
-          </ul>
-		  
-		  <h3 id="Maturing_Hunter"><a href="#Maturing_Hunter_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Wild_Animals">Maturing Hunter</a> <span id="playthrough_totals_34"></span></h3>
-          <ul id="Maturing_Hunter_col" class="collapse in">
-			<li data-id="playthrough_34_1" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
-			<li data-id="playthrough_34_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
-          </ul>
-		  
-		  <h3 id="Gifted_For_Associative_Learnings"><a href="#Gifted_For_Associative_Learnings_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Items">Gifted For Associative Learnings</a> <span id="playthrough_totals_35"></span></h3>
-          <ul id="Gifted_For_Associative_Learnings_col" class="collapse in">
-			<li data-id="playthrough_35_1" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Aloe_Sap_Paste">Aloe Sap Paste's</a> properties by application at least twice</li>
-			<li data-id="playthrough_35_2" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Horsetail_Paste">Horsetail Paste's</a> properties by application at least twice</li>
-			<li data-id="playthrough_35_3" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Honey">Honey's</a> properties by application at least twice</li>
-			<li data-id="playthrough_35_4" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Kapok_Fiber">Kapok Fiber's</a> properties by application at least twice</li>
-          </ul>
-		  
-		  <h3 id="Leading_Tool_User_-_Rocks"><a href="#Leading_Tool_User_-_Rocks_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Items#Rocks">Leading Tool User - Rocks</a> <span id="playthrough_totals_36"></span></h3>
-          <ul id="Leading_Tool_User_-_Rocks_col" class="collapse in">
-			<li data-id="playthrough_36_1" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Basalt">Basalt</a> as a tool at least twice</li>
-			<li data-id="playthrough_36_2" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Basalt_Chopper">Basalt Chopper</a> as a tool at least twice</li>
-			<li data-id="playthrough_36_3" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Granite_Rock">Granite Rock</a> as a tool at least twice</li>
-			<li data-id="playthrough_36_4" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Granite_Grinder">Granite Grinder</a> as a tool at least twice</li>
-			<li data-id="playthrough_36_5" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Obsidian">Obsidian</a> as a tool at least twice</li>
-			<li data-id="playthrough_36_6" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Obsidian_Scraper">Obsidian Scraper</a> as a tool at least twice</li>
-          </ul>
-		  
-		  <h3 id="Leading_Tool_User_-_Wood_and_Vegetal"><a href="#Leading_Tool_User_-_Wood_and_Vegetal_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Items#Wood">Leading Tool User - Wood and Vegetal</a> <span id="playthrough_totals_37"></span></h3>
-          <ul id="Leading_Tool_User_-_Wood_and_Vegetal_col" class="collapse in">
-			<li data-id="playthrough_37_1" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Dead_Branch">Dead Branch</a> as a tool at least twice</li>
-			<li data-id="playthrough_37_2" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Stick">Stick</a> as a tool at least twice</li>
-			<li data-id="playthrough_37_3" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Sharpened_Stick">Sharpened Stick</a> as a tool at least twice</li>
-			<li data-id="playthrough_37_4" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Natal_Grass_Cycad">Natal Grass Cycad</a> as a tool at least twice</li>
-			<li data-id="playthrough_37_5" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Natal_Grass_Cycad%27s_Stem">Natal Grass Cycad's Stem</a> as a tool at least twice</li>
-			<li data-id="playthrough_37_6" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Thornbush">Thornbush</a> as a tool at least twice</li>
-          </ul>
-		  
-		  <h3 id="Maximized_Neuronal_Development_-_Early_Phases"><a href="#Maximized_Neuronal_Development_-_Early_Phases_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Neuronal">Maximized Neuronal Development - Early Phases</a> <span id="playthrough_totals_38"></span></h3>
-          <ul id="Maximized_Neuronal_Development_-_Early_Phases_col" class="collapse in">
-			<li data-id="playthrough_38_1" class="f_none">Reinforced your Lineage's neuronal development - Early phase 1</li>
-			<li data-id="playthrough_38_2" class="f_none">Reinforced your Lineage's neuronal development - Early phase 2</li>
-			<li data-id="playthrough_38_3" class="f_none">Reinforced your Lineage's neuronal development - Early phase 3</li>
-          </ul>
-		  
-		  <h3 id="Maximized_Neuronal_Development_-_Maturing_Phases"><a href="#Maximized_Neuronal_Development_-_Maturing_Phases_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Neuronal">Maximized Neuronal Development - Maturing Phases</a> <span id="playthrough_totals_39"></span></h3>
-          <ul id="Maximized_Neuronal_Development_-_Maturing_Phases_col" class="collapse in">
-			<li data-id="playthrough_39_1" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 1</li>
-			<li data-id="playthrough_39_2" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 2</li>
-			<li data-id="playthrough_39_3" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 3</li>
-			<li data-id="playthrough_39_4" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 4</li>
-          </ul>
-		  
-		  <h3 id="Maximized_Neuronal_Development_-_Blooming_Phases"><a href="#Maximized_Neuronal_Development_-_Blooming_Phases_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Neuronal">Maximized Neuronal Development - Blooming Phases</a> <span id="playthrough_totals_40"></span></h3>
-          <ul id="Maximized_Neuronal_Development_-_Blooming_Phases_col" class="collapse in">
-			<li data-id="playthrough_40_1" class="f_none">Reinforced your Lineage's neuronal development - Blooming phase 1</li>
-			<li data-id="playthrough_40_2" class="f_none">Reinforced your Lineage's neuronal development - Blooming phase 2</li>
-			<li data-id="playthrough_40_3" class="f_none">Reinforced your Lineage's neuronal development - Blooming phase 3</li>
-          </ul>
-		  
-		  <h3 id="Emergence_of_Scientific_Thinking"><a href="#Emergence_of_Scientific_Thinking_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Medicine">Emergence of Scientific Thinking</a> <span id="playthrough_totals_41"></span></h3>
-          <ul id="Emergence_of_Scientific_Thinking_col" class="collapse in">
-			<li data-id="playthrough_41_1" class="f_none">Cured yourself from a <a href="https://ancestors.fandom.com/wiki/Venom_Poisoning">Venom Poisoning</a> at least 2 times</li>
-			<li data-id="playthrough_41_2" class="f_none">Cured yourself from a <a href="https://ancestors.fandom.com/wiki/Food_Poisoning">Food Poisoning</a> at least 2 times</li>
-          </ul>
-		  
-		  <h3 id="Foundation_of_Medical_Insight"><a href="#Foundation_of_Medical_Insight_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Medicine">Foundation of Medical Insight</a> <span id="playthrough_totals_42"></span></h3>
-          <ul id="Foundation_of_Medical_Insight_col" class="collapse in">
-			<li data-id="playthrough_42_1" class="f_none">Healed yourself from a <a href="https://ancestors.fandom.com/wiki/Injury#Stage_1">Minor Injury</a> at least 5 times</li>
-			<li data-id="playthrough_42_2" class="f_none">Healed yourself from a <a href="https://ancestors.fandom.com/wiki/Injury#Stage_2">Major Injury</a> at least 5 times</li>
-			<li data-id="playthrough_42_3" class="f_none">Healed yourself from a <a href="https://ancestors.fandom.com/wiki/Bleeding">Bleeding Injury</a> at least 5 times</li>
-          </ul>
-		  
-		  <h3 id="Adaptive_Metabolism"><a href="#Adaptive_Metabolism_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Food">Adaptive Metabolism</a> <span id="playthrough_totals_43"></span></h3>
-          <ul id="Adaptive_Metabolism_col" class="collapse in">
-			<li data-id="playthrough_43_1" class="f_none">Assimilated nutrients from the Drupe kind of food</li>
-			<li data-id="playthrough_43_2" class="f_none">Assimilated nutrients from the Berry kind of food</li>
-			<li data-id="playthrough_43_3" class="f_none">Assimilated nutrients from the Root kind of food</li>
-			<li data-id="playthrough_43_4" class="f_none">Assimilated nutrients from the Zygote kind of food</li>
-			<li data-id="playthrough_43_5" class="f_none">Assimilated nutrients from the Mammal kind of food</li>
-			<li data-id="playthrough_43_6" class="f_none">Assimilated nutrients from the Oviparous kind of food</li>
-			<li data-id="playthrough_43_7" class="f_none">Assimilated nutrients from the Insect kind of food</li>
-			<li data-id="playthrough_43_8" class="f_none">Assimilated nutrients from the Eumycota kind of food</li>
-			<li data-id="playthrough_43_9" class="f_none">Assimilated nutrients from the Cotyledon kind of food</li>
-			<li data-id="playthrough_43_10" class="f_none">Assimilated nutrients from the Vegetal kind of food</li>
-			<li data-id="playthrough_43_11" class="f_none">Assimilated nutrients from the Mollusk kind of food</li>
-          </ul>
-
-        </div>
-        <!-- END Walkthrough -->
-      </div>
-	  
-	  <div class="tab-pane" id="tabChecklists">
-		<div class="form-group">
-		  <input type="search" id="item_search" class="form-control" placeholder="Start typing to filter results..." />
-		</div>
-	  </div>
-
-      <div class="tab-pane" id="tabWeaponsShields">
-		<div class="form-group">
-		  <input type="search" id="weapons_search" class="form-control" placeholder="Start typing to filter results..." />
-		</div>
-	  </div>
-		
-	  <div class="tab-pane" id="tabArmors">
-		<div class="form-group">
-		  <input type="search" id="armors_search" class="form-control" placeholder="Start typing to filter results..." />
-		</div>
-	  </div>
-
-      <div class="tab-pane" id="tabOptions">
-        <h2>Options</h2>
-
-        <!-- Theme Selection -->
-        <div class="row">
-          <div class="col col-xs-12 col-sm-4 col-md-6"><h4>Theme selection:</h4></div>
-          <div class="col col-xs-12 col-sm-8 col-md-6"><select class="form-control" id="themes"><!-- Gets filled by jQuery. --></select></div>
-        </div>
-        <!-- Profile Selection -->
-        <div class="row">
-          <div class="col col-xs-12 col-sm-4 col-md-6"><h4>Profile management:</h4></div>
-          <div class="col col-xs-12 col-sm-8 col-md-6">
-            <form class="form-inline input-group pull-right">
-              <select class="form-control" id="profiles"></select>
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button" id="profileAdd">Add</button>
-                <button class="btn btn-default" type="button" id="profileEdit">Edit</button>
-              </span>
-            </form>
-          </div>
-        </div>
-        <!-- Import/Export -->
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-6"><h4>Data import/export:</h4></div>
-          <div class="col-xs-12 col-sm-8 col-md-6">
-            <form class="form-inline">
-              <span class="btn-group pull-left">
-                <button class="btn btn-default" type="button" id="profileImport">Import file</button>
-                <button class="btn btn-default" type="button" id="profileExport">Export file</button>
-              </span>
-              <span class="btn-group pull-right">
-                <button class="btn btn-default" type="button" id="profileImportText">Import textbox</button>
-                <button class="btn btn-default" type="button" id="profileExportText">Export clipboard</button>
-              </span>
-            </form>
-          </div>
-          <div class="col col-xs-12">
-            <textarea id="profileText" class="form-control"></textarea>
-          </div>
-        </div>
-      </div>
-
-      <div id="profileModal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h3 id="profileModalTitle" class="modal-title">Profile</h3>
+   <head>
+      <meta charset="utf-8">
+      <title>Ancestors: The Humankind Odyssey Cheat Sheet</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?">
+      <link rel="apple-touch-icon-precomposed" href="img/favicon-152.png">
+      <link rel="mask-icon" href="img/pinned-tab-icon.svg" color="#000000">
+      <meta name="description" content="Cheat sheet for Ancestors: The Humankind Odyssey. Checklist of things to do.">
+      <meta name="author" content="Zachary Kjellberg">
+      <meta name="mobile-web-app-capable" content="yes">
+      <link id="bootstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+      <link href="css/main.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
             </div>
-            <div class="modal-body">
-              <form class="form-horizontal">
-                <div class="control-group">
-                  <label class="control-label" for="profileModalName">Name</label>
-                  <div class="controls">
-                    <input type="text" class="form-control" id="profileModalName" placeholder="Enter profile name">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="nav-collapse">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#tabPlaythrough" data-toggle="tab" data-target="#tabPlaythrough,#btnHideCompleted">Playthrough</a></li>
+                  <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Options</a></li>
+               </ul>
+               <!-- /.nav.navbar-nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <h1>Ancestors: The Humankind Odyssey Cheat Sheet</h1>
+            </div>
+         </div>
+         <div class="tab-content">
+            <!-- Hide Completed Toggle -->
+            <div class="tab-pane active in" id="btnHideCompleted">
+               <div class="btn-group" role="group" data-toggle="buttons">
+                  <label class="btn btn-default">
+                  <input type="checkbox" id="toggleHideCompleted">
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Hide Completed
+                  <a class="btn btn-default btn-sm fadingbutton togglehide" onclick="$('#toggleHideCompleted').click();">
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Hide Completed
+                  </a>
+                  </label>
+               </div>
+            </div>
+            <!-- PLAYTHROUGH START -->
+            <div class="tab-pane active" id="tabPlaythrough">
+               <!-- Toolbar -->
+               <h2>Playthrough Checklist <span id="playthrough_overall_total"></span></h2>
+               <ul class="table_of_contents">
+                  <li><a href="#From_Irascible_Aggressors">Master of Escape - From Irascible Aggressors</a> <span id="playthrough_nav_totals_1"></span></li>
+                  <li><a href="#From_Crawling_Threats">Master of Escape - From Crawling Threats</a> <span id="playthrough_nav_totals_2"></span></li>
+                  <li><a href="#From_Predators">Master of Escape - From Predators</a> <span id="playthrough_nav_totals_3"></span></li>
+                  <li><a href="#Jungles_Master_Explorer">Jungle's Master Explorer</a> <span id="playthrough_nav_totals_4"></span></li>
+                  <li><a href="#Canyons_Master_Explorer">Canyon's Master Explorer</a> <span id="playthrough_nav_totals_5"></span></li>
+                  <li><a href="#Lakes_Master_Explorer">Lake's Master Explorer</a> <span id="playthrough_nav_totals_6"></span></li>
+                  <li><a href="#Ocean_Regions_Master_Explorer">Ocean Region's Master Explorer</a> <span id="playthrough_nav_totals_7"></span></li>
+                  <li><a href="#Savannas_Master_Explorer">Savanna's Master Explorer</a> <span id="playthrough_nav_totals_8"></span></li>
+                  <li><a href="#Woodlands_Master_Explorer">Woodland's Master Explorer</a> <span id="playthrough_nav_totals_9"></span></li>
+                  <li><a href="#Caverns_Master_Explorer">Cavern's Master Explorer</a> <span id="playthrough_nav_totals_10"></span></li>
+                  <li><a href="#Birth_of_a_Cartographer">Birth of a Cartographer</a> <span id="playthrough_nav_totals_11"></span></li>
+                  <li><a href="#Spiritual_Inception">Spiritual Inception</a> <span id="playthrough_nav_totals_12"></span></li>
+                  <li><a href="#Being_One_With_The_Universe">Being One With The Universe</a> <span id="playthrough_nav_totals_13"></span></li>
+                  <li><a href="#Expand">Expand</a> <span id="playthrough_nav_totals_14"></span></li>
+                  <li><a href="#Fearless_Leader">Fearless Leader</a> <span id="playthrough_nav_totals_15"></span></li>
+                  <li><a href="#Feared_Rival">Feared Rival</a> <span id="playthrough_nav_totals_16"></span></li>
+                  <li><a href="#Feared_Species">Feared Species</a> <span id="playthrough_nav_totals_17"></span></li>
+                  <li><a href="#Feared_Enemy">Feared Enemy</a> <span id="playthrough_nav_totals_18"></span></li>
+                  <li><a href="#Feared_Predator">Feared Predator</a> <span id="playthrough_nav_totals_19"></span></li>
+                  <li><a href="#Brave_Predator">Brave Predator</a> <span id="playthrough_nav_totals_44"></span></li>
+                  <li><a href="#Apex_Predator">Apex Predator</a> <span id="playthrough_nav_totals_20"></span></li>
+                  <li><a href="#Generous_Leader">Generous Leader</a> <span id="playthrough_nav_totals_21"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Crocodile">Astute Dominator of the Crocodile</a> <span id="playthrough_nav_totals_22"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Elephant">Astute Dominator of the Elephant</a> <span id="playthrough_nav_totals_23"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Hippopotamus">Astute Dominator of the Hippopotamus</a> <span id="playthrough_nav_totals_24"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Hyena">Astute Dominator of the Hyena</a> <span id="playthrough_nav_totals_25"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Jackal">Astute Dominator of the Jackal</a> <span id="playthrough_nav_totals_26"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Machairodus">Astute Dominator of the Machairodus</a> <span id="playthrough_nav_totals_27"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Otter">Astute Dominator of the Otter</a> <span id="playthrough_nav_totals_28"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Rock_Python">Astute Dominator of the Rock Python</a> <span id="playthrough_nav_totals_29"></span></li>
+                  <li><a href="#Astute_Dominator_of_the_Rhinoceros">Astute Dominator of the Rhinoceros</a> <span id="playthrough_nav_totals_30"></span></li>
+                  <li><a href="#Territorial_Dominance">Territorial Dominance</a> <span id="playthrough_nav_totals_31"></span></li>
+                  <li><a href="#Craftsmanship_Pioneer">Craftsmanship Pioneer</a> <span id="playthrough_nav_totals_32"></span></li>
+                  <li><a href="#Advanced_Problem_Solver">Advanced Problem Solver</a> <span id="playthrough_nav_totals_33"></span></li>
+                  <li><a href="#Maturing_Hunter">Maturing Hunter</a> <span id="playthrough_nav_totals_34"></span></li>
+                  <li><a href="#Gifted_For_Associative_Learnings">Gifted For Associative Learnings</a> <span id="playthrough_nav_totals_35"></span></li>
+                  <li><a href="#Leading_Tool_User_-_Rocks">Leading Tool User - Rocks</a> <span id="playthrough_nav_totals_36"></span></li>
+                  <li><a href="#Leading_Tool_User_-_Wood_and_Vegetal">Leading Tool User - Wood and Vegetal</a> <span id="playthrough_nav_totals_37"></span></li>
+                  <li><a href="#Maximized_Neuronal_Development_-_Early_Phases">Maximized Neuronal Development - Early Phases</a> <span id="playthrough_nav_totals_38"></span></li>
+                  <li><a href="#Maximized_Neuronal_Development_-_Maturing_Phases">Maximized Neuronal Development - Maturing Phases</a> <span id="playthrough_nav_totals_39"></span></li>
+                  <li><a href="#Maximized_Neuronal_Development_-_Blooming_Phases">Maximized Neuronal Development - Blooming Phases</a> <span id="playthrough_nav_totals_40"></span></li>
+                  <li><a href="#Emergence_of_Scientific_Thinking">Emergence of Scientific Thinking</a> <span id="playthrough_nav_totals_41"></span></li>
+                  <li><a href="#Foundation_of_Medical_Insight">Foundation of Medical Insight</a> <span id="playthrough_nav_totals_42"></span></li>
+                  <li><a href="#Adaptive_Metabolism">Adaptive Metabolism</a> <span id="playthrough_nav_totals_43"></span></li>
+               </ul>
+               <div class="form-group">
+                  <input type="search" id="playthrough_search" class="form-control" placeholder="Start typing to filter results..." />
+               </div>
+               <div id="playthrough_list">
+                  <h3 id="From_Irascible_Aggressors"><a href="#From_Irascible_Aggressors_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Irascible_Threats">Master of Escape - From Irascible Aggressors</a> <span id="playthrough_totals_1"></span></h3>
+                  <ul id="From_Irascible_Aggressors_col" class="collapse in">
+                     <li data-id="playthrough_1_1" class="f_none">Successfully dodged an attack from an <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a> at least twice</li>
+                     <li data-id="playthrough_1_2" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Miocene Elephant</a> at least twice</li>
+                     <li data-id="playthrough_1_3" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a> at least twice</li>
+                     <li data-id="playthrough_1_4" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a> at least twice</li>
+                     <li data-id="playthrough_1_5" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Hippopotamus">Hippopotamus</a> at least twice</li>
+                     <li data-id="playthrough_1_6" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a> at least twice</li>
+                  </ul>
+                  <h3 id="From_Crawling_Threats"><a href="#From_Crawling_Threats_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Crawling_Threats">Master of Escape - From Crawling Threats</a> <span id="playthrough_totals_2"></span></h3>
+                  <ul id="From_Crawling_Threats_col" class="collapse in">
+                     <li data-id="playthrough_2_1" class="f_none">Successfully dodged an attack from an <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a> at least twice</li>
+                     <li data-id="playthrough_2_2" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a> at least twice</li>
+                     <li data-id="playthrough_2_3" class="f_none">Successfully dodged an attack from an <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a> at least twice</li>
+                     <li data-id="playthrough_2_4" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a> at least twice</li>
+                  </ul>
+                  <h3 id="From_Predators"><a href="#From_Predators_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Predators">Master of Escape - From Predators</a> <span id="playthrough_totals_3"></span></h3>
+                  <ul id="From_Predators_col" class="collapse in">
+                     <li data-id="playthrough_3_1" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a> at least twice</li>
+                     <li data-id="playthrough_3_2" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a> at least twice</li>
+                     <li data-id="playthrough_3_3" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a> at least twice</li>
+                     <li data-id="playthrough_3_4" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Golden_Machairodus">Golden Machairodus</a> at least twice</li>
+                     <li data-id="playthrough_3_5" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Black_Machairodus">Black Machairodus</a> at least twice</li>
+                     <li data-id="playthrough_3_6" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/White_Machairodus">White Machairodus</a> at least twice</li>
+                     <li data-id="playthrough_3_7" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Bateleur_Eagle">Bateleur Eagle</a> at least twice</li>
+                     <li data-id="playthrough_3_8" class="f_none">Successfully dodged an attack from a <a href="https://ancestors.fandom.com/wiki/Miocene_Pelican">Miocene Pelican</a> at least twice</li>
+                  </ul>
+                  <h3 id="Jungles_Master_Explorer"><a href="#Jungles_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Jungle">Jungle's Master Explorer</a> <span id="playthrough_totals_4"></span></h3>
+                  <ul id="Jungles_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_4_1" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Hidden_Waterfall_Oasis">Hidden Waterfall Oasis</a></li>
+                     <li data-id="playthrough_4_2" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Under-The-Cliff_Oasis">Under-The-Cliff Oasis</a></li>
+                     <li data-id="playthrough_4_3" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Cascade_Oasis">Cascade Oasis</a></li>
+                     <li data-id="playthrough_4_4" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Lone_Kapok_Oasis">Lone Kapok Oasis</a></li>
+                     <li data-id="playthrough_4_5" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Head-Of-Stone_Oasis">Head-Of-Stone Oasis</a></li>
+                     <li data-id="playthrough_4_6" class="f_none">Discovered the Jungle's <a href="https://ancestors.fandom.com/wiki/Jut-Out_Boulder_Oasis">Jut-Out Boulder Oasis</a></li>
+                  </ul>
+                  <h3 id="Canyons_Master_Explorer"><a href="#Canyons_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Canyon">Canyon's Master Explorer</a> <span id="playthrough_totals_5"></span></h3>
+                  <ul id="Canyons_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_5_1" class="f_none">Discovered the <a href="https://ancestors.fandom.com/wiki/Canyon%27s_Entrance_Oasis">Canyon's Entrance Oasis</a></li>
+                     <li data-id="playthrough_5_2" class="f_none">Discovered the Canyon's <a href="https://ancestors.fandom.com/wiki/Shallow_Hideout_Oasis">Shallow Hideout Oasis</a></li>
+                  </ul>
+                  <h3 id="Lakes_Master_Explorer"><a href="#Lakes_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Great_Lake">Lake's Master Explorer</a> <span id="playthrough_totals_6"></span></h3>
+                  <ul id="Lakes_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_6_1" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Split_Waterfall_Oasis">Split Waterfall Oasis</a></li>
+                     <li data-id="playthrough_6_2" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Rockslide_Oasis">Rockslide Oasis</a></li>
+                     <li data-id="playthrough_6_3" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Cave%27s_Mouth_Oasis">Cave's Mouth Oasis</a></li>
+                     <li data-id="playthrough_6_4" class="f_none">Discovered the Lake's <a href="https://ancestors.fandom.com/wiki/Under-The-Falls_Oasis">Under-The-Falls Oasis</a></li>
+                     <li data-id="playthrough_6_5" class="f_none">Discovered the <a href="https://ancestors.fandom.com/wiki/Lakeside_Oasis">Lakeside Oasis</a></li>
+                  </ul>
+                  <h3 id="Ocean_Regions_Master_Explorer"><a href="#Ocean_Regions_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Ocean">Ocean Region's Master Explorer</a> <span id="playthrough_totals_7"></span></h3>
+                  <ul id="Ocean_Regions_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_7_1" class="f_none">Discovered the Ocean's <a href="https://ancestors.fandom.com/wiki/Last_Shelter_Oasis">Last Shelter Oasis</a></li>
+                     <li data-id="playthrough_7_2" class="f_none">Discovered the Ocean's <a href="https://ancestors.fandom.com/wiki/Sand_Garden_Oasis">Sand Garden Oasis</a></li>
+                  </ul>
+                  <h3 id="Savannas_Master_Explorer"><a href="#Savannas_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Savanna">Savanna's Master Explorer</a> <span id="playthrough_totals_8"></span></h3>
+                  <ul id="Savannas_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_8_1" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Khat_Trees_Oasis">Khat Trees Oasis</a></li>
+                     <li data-id="playthrough_8_2" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Rock_Arrow_Oasis">Rock Arrow Oasis</a></li>
+                     <li data-id="playthrough_8_3" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Hipparions%27_Pond_Oasis">Hipparions' Pond Oasis</a></li>
+                     <li data-id="playthrough_8_4" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Buffalo%27s_Basin_Oasis">Buffalo's Basin Oasis</a></li>
+                     <li data-id="playthrough_8_5" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Bulky_Arch_Oasis">Bulky Arch Oasis</a></li>
+                     <li data-id="playthrough_8_6" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Two_Trunks_Lagoon_Oasis">Two Trunks Lagoon Oasis</a></li>
+                     <li data-id="playthrough_8_7" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Baobabs_Oasis">Baobabs Oasis</a></li>
+                     <li data-id="playthrough_8_8" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Hidden_Water_Oasis">Hidden Water Oasis</a></li>
+                     <li data-id="playthrough_8_9" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Pond_%26_Puddle_Oasis">Pond & Puddle Oasis</a></li>
+                     <li data-id="playthrough_8_10" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Raised_Refuge_Oasis">Raised Refuge Oasis</a></li>
+                     <li data-id="playthrough_8_11" class="f_none">Discovered the Savanna's <a href="https://ancestors.fandom.com/wiki/Drying_Basin_Oasis">Drying Basin Oasis</a></li>
+                  </ul>
+                  <h3 id="Woodlands_Master_Explorer"><a href="#Woodlands_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Woodland">Woodland's Master Explorer</a> <span id="playthrough_totals_9"></span></h3>
+                  <ul id="Woodlands_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_9_1" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Rocky_Tarn_Oasis">Rocky Tarn Oasis</a></li>
+                     <li data-id="playthrough_9_2" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Hillock_Oasis">Hillock Oasis</a></li>
+                     <li data-id="playthrough_9_3" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Hollow_Pond_Oasis">Hollow Pond Oasis</a></li>
+                     <li data-id="playthrough_9_4" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Leaning_Trunk_Oasis">Leaning Trunk Oasis</a></li>
+                     <li data-id="playthrough_9_5" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Tunnel_Mouth_Oasis">Tunnel Mouth Oasis</a></li>
+                     <li data-id="playthrough_9_6" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Around-The-Tree_Oasis">Around-The-Tree Oasis</a></li>
+                     <li data-id="playthrough_9_7" class="f_none">Discovered the Woodland's <a href="https://ancestors.fandom.com/wiki/Savanna%27s_Border_Oasis">Savanna Border Oasis</a></li>
+                  </ul>
+                  <h3 id="Caverns_Master_Explorer"><a href="#Caverns_Master_Explorer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Caves">Cavern's Master Explorer</a> <span id="playthrough_totals_10"></span></h3>
+                  <ul id="Caverns_Master_Explorer_col" class="collapse in">
+                     <li data-id="playthrough_10_1" class="f_none">Discovered the Cavern's <a href="https://ancestors.fandom.com/wiki/Deep_Enclave_Oasis">Deep Enclave Oasis</a></li>
+                     <li data-id="playthrough_10_2" class="f_none">Discovered the Cavern's <a href="https://ancestors.fandom.com/wiki/Butterfly_Tree_Oasis">Butterfly Tree Oasis</a></li>
+                     <li data-id="playthrough_10_3" class="f_none">Discovered the Cavern's <a href="https://ancestors.fandom.com/wiki/Buried_Garden_Oasis">Buried Garden Oasis</a></li>
+                  </ul>
+                  <h3 id="Birth_of_a_Cartographer"><a href="#Birth_of_a_Cartographer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Locations#Landmarks_-_Memorable_Locations">Birth of a Cartographer</a> <span id="playthrough_totals_11"></span></h3>
+                  <ul id="Birth_of_a_Cartographer_col" class="collapse in">
+                     <li data-id="playthrough_11_1" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Father_Tree">The Father Tree</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_2" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Little_Swamp">The Little Swamp</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_3" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Sister_Arches">The Sister Arches</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_4" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Cliff_Cascade">The Cliff Cascade</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_5" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Enclosed_Waterfall">The Enclosed Waterfall</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_6" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Two_Rivers%27_Junction">The Two Rivers' Junction</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_7" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Orchard">The Orchard</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_8" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Big_Swamp">The Big Swamp</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_9" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Highland_Plateau">The Highland Plateau</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_10" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Highland_Peak">The Highland Peak</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_11" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Crocodiles_Island">The Crocodiles Island</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_12" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Cave%27s_Secluded_Entrance">The Cave's Secluded Entrance</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_13" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Great_Lake">The Great Lake</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_14" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Green_Rock_Pathway">The Green Rock Pathway</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_15" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Rocky_Pass">The Rocky Pass</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_16" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Covered_Gorge">The Covered Gorge</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_17" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Hidden_Pit">The Hidden Pit</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_18" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Woodland_Swamp">The Woodland Swamp</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_19" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Sibling_Falls%27_Pond">The Sibling Falls' Pond</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_20" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Lake%27s_Swamp">The Lake's Swamp</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_21" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/Where_The_Rivers_Meet">Where The Rivers Meet</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_22" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Otters%27_Den">The Otters' Den</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_23" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Brothers_Megaliths">The Brothers Megaliths</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_24" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Thousand_Floors_Waterfall">The Thousand Floors Waterfall</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_25" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Woodland%27s_Dead_Zone">The Woodland's Dead Zone</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_26" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Erupted_Rock">The Erupted Rock</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_27" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Door_To_Savanna">The Door To Savanna</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_28" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Dying_Waterfall">The Dying Waterfall</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_29" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Broken_Arch">The Broken Arch</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_30" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Funnelling_Arch">The Funnelling Arch</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_31" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Desert%27s_Gate">The Desert's Gate</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_32" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Beach_Tower">The Beach Tower</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_33" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/Mussels%27_Beach">Mussels' Beach</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_34" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Ocean%27s_Arch">The Ocean's Arch</a> as a Memorable Location</li>
+                     <li data-id="playthrough_11_35" class="f_none">Discovered <a href="https://ancestors.fandom.com/wiki/The_Eroded_Cliffs">The Eroded Cliffs</a> as a Memorable Location</li>
+                  </ul>
+                  <h3 id="Spiritual_Inception"><a href="#Spiritual_Inception_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Precious_Stone">Spiritual Inception</a> <span id="playthrough_totals_12"></span></h3>
+                  <ul id="Spiritual_Inception_col" class="collapse in">
+                     <li data-id="playthrough_12_1" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Blue_Agate">Blue Agate</a> as a precious stone</li>
+                     <li data-id="playthrough_12_2" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Emerald">Emerald</a> as a precious stone</li>
+                     <li data-id="playthrough_12_3" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Ruby">Ruby</a> as a precious stone</li>
+                     <li data-id="playthrough_12_4" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Tourmaline">Tourmaline</a> as a precious stone</li>
+                     <li data-id="playthrough_12_5" class="f_none">Found a <a href="https://ancestors.fandom.com/wiki/Sphalerite">Sphalerite</a> as a precious stone</li>
+                  </ul>
+                  <h3 id="Being_One_With_The_Universe"><a href="#Being_One_With_The_Universe_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Meteorite">Being One With The Universe</a> <span id="playthrough_totals_13"></span></h3>
+                  <ul id="Being_One_With_The_Universe_col" class="collapse in">
+                     <li data-id="playthrough_13_1" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Swamp%27s_meteorite_site">Little Swamp site</a></li>
+                     <li data-id="playthrough_13_2" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Dead_Tree%27s_meteorite_site">Dead Tree site</a></li>
+                     <li data-id="playthrough_13_3" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Island%27s_meteorite_site">Island site</a></li>
+                     <li data-id="playthrough_13_4" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Flat_Boulder%27s_meteorite_site">Flat Boulder site</a></li>
+                     <li data-id="playthrough_13_5" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Lake_Clearing%27s_meteorite_site">Lake Clearing site</a></li>
+                     <li data-id="playthrough_13_6" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Over-The-Cave%27s_meteorite_site">Over-The-Cave site</a></li>
+                     <li data-id="playthrough_13_7" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Carissa_Clearing%27s_meteorite_site">Carissa Clearing site</a></li>
+                     <li data-id="playthrough_13_8" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Savanna%27s_Boulders_Enclave%27s_meteorite_site">Savanna's Boulders Enclave site</a></li>
+                     <li data-id="playthrough_13_9" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Single_Kapok%27s_meteorite_site">Single Kapok site</a></li>
+                     <li data-id="playthrough_13_10" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Rock_Boundaries%27_meteorite_site">Rock Boundary site</a></li>
+                     <li data-id="playthrough_13_11" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Baobabs%27_meteorite_site">Baobabs site</a></li>
+                     <li data-id="playthrough_13_12" class="f_none">Found the meteorite of the <a href="https://ancestors.fandom.com/wiki/Desert%27s_meteorite_site">Desert site</a></li>
+                  </ul>
+                  <h3 id="Expand"><a href="#Expand_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Construction">Expand</a> <span id="playthrough_totals_14"></span></h3>
+                  <ul id="Expand_col" class="collapse in">
+                     <li data-id="playthrough_14_1" class="f_none">Built a <a href="https://ancestors.fandom.com/wiki/Sleep_Spot">Sleep Spot</a> at least 5 times</li>
+                     <li data-id="playthrough_14_2" class="f_none">Built a <a href="https://ancestors.fandom.com/wiki/Thornbush_Wall">Thornbush Wall</a> at least 5 times</li>
+                     <li data-id="playthrough_14_3" class="f_none">Built a <a href="https://ancestors.fandom.com/wiki/Branch_Barrier">Branch Barrier</a> at least 5 times</li>
+                  </ul>
+                  <h3 id="Fearless_Leader"><a href="#Fearless_Leader_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Fear#Fear_of_the_Unknown">Fearless Leader</a> <span id="playthrough_totals_15"></span></h3>
+                  <ul id="Fearless_Leader_col" class="collapse in">
+                     <li data-id="playthrough_15_1" class="f_none">Conquered the Fear Of The Unknown 5 times</li>
+                     <li data-id="playthrough_15_2" class="f_none">Conquered the Fear Of The Unknown 10 times</li>
+                     <li data-id="playthrough_15_3" class="f_none">Conquered the Fear Of The Unknown 15 times</li>
+                     <li data-id="playthrough_15_4" class="f_none">Conquered the Fear Of The Unknown 20 times</li>
+                  </ul>
+                  <h3 id="Feared_Rival"><a href="#Feared_Rival_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Intimidate">Feared Rival</a> <span id="playthrough_totals_16"></span></h3>
+                  <ul id="Feared_Rival_col" class="collapse in">
+                     <li data-id="playthrough_16_1" class="f_none">Intimidated an <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_16_2" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Miocene Elephant</a></li>
+                     <li data-id="playthrough_16_3" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
+                     <li data-id="playthrough_16_4" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Hippopotamus">Hippopotamus</a></li>
+                     <li data-id="playthrough_16_5" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                     <li data-id="playthrough_16_6" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a></li>
+                  </ul>
+                  <h3 id="Feared_Species"><a href="#Feared_Species_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Intimidate">Feared Species</a> <span id="playthrough_totals_17"></span></h3>
+                  <ul id="Feared_Species_col" class="collapse in">
+                     <li data-id="playthrough_17_1" class="f_none">Intimidated an <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                     <li data-id="playthrough_17_2" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a></li>
+                     <li data-id="playthrough_17_3" class="f_none">Intimidated an <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_17_4" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                  </ul>
+                  <h3 id="Feared_Enemy"><a href="#Feared_Enemy_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Intimidate">Feared Enemy</a> <span id="playthrough_totals_18"></span></h3>
+                  <ul id="Feared_Enemy_col" class="collapse in">
+                     <li data-id="playthrough_18_1" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
+                     <li data-id="playthrough_18_2" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_18_3" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_18_4" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Golden_Machairodus">Golden Machairodus</a></li>
+                     <li data-id="playthrough_18_5" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/Black_Machairodus">Black Machairodus</a></li>
+                     <li data-id="playthrough_18_6" class="f_none">Intimidated a <a href="https://ancestors.fandom.com/wiki/White_Machairodus">White Machairodus</a></li>
+                  </ul>
+                  <h3 id="Feared_Predator"><a href="#Feared_Predator_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Irascible_Threats">Feared Predator</a> <span id="playthrough_totals_19"></span></h3>
+                  <ul id="Feared_Predator_col" class="collapse in">
+                     <li data-id="playthrough_19_1" class="f_none">Killed an <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_19_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Miocene Elephant</a></li>
+                     <li data-id="playthrough_19_3" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
+                     <li data-id="playthrough_19_4" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Hippopotamus">Hippopotamus</a></li>
+                     <li data-id="playthrough_19_5" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                     <li data-id="playthrough_19_6" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a></li>
+                  </ul>
+                  <h3 id="Brave_Predator"><a href="#Brave_Predator_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Crawling_Threats">Brave Predator</a> <span id="playthrough_totals_44"></span></h3>
+                  <ul id="Brave_Predator_col" class="collapse in">
+                     <li data-id="playthrough_44_1" class="f_none">Killed an <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                     <li data-id="playthrough_44_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a></li>
+                     <li data-id="playthrough_44_3" class="f_none">Killed an <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_44_4" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                  </ul>
+                  <h3 id="Apex_Predator"><a href="#Apex_Predator_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Predators">Apex Predator</a> <span id="playthrough_totals_20"></span></h3>
+                  <ul id="Apex_Predator_col" class="collapse in">
+                     <li data-id="playthrough_20_1" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
+                     <li data-id="playthrough_20_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_20_3" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_20_4" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Golden_Machairodus">Golden Machairodus</a></li>
+                     <li data-id="playthrough_20_5" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Black_Machairodus">Black Machairodus</a></li>
+                     <li data-id="playthrough_20_6" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/White_Machairodus">White Machairodus</a></li>
+                     <li data-id="playthrough_20_7" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Bateleur_Eagle">Bateleur Eagle</a></li>
+                     <li data-id="playthrough_20_8" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_Pelican">Miocene Pelican</a></li>
+                  </ul>
+                  <h3 id="Generous_Leader"><a href="#Generous_Leader_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Recruiting">Generous Leader</a> <span id="playthrough_totals_21"></span></h3>
+                  <ul id="Generous_Leader_col" class="collapse in">
+                     <li data-id="playthrough_21_1" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Hungry_Outsider">hungry outsider</a> to have a new clan member</li>
+                     <li data-id="playthrough_21_2" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Thirst_Outsider">thirsty outsider</a> to have a new clan member</li>
+                     <li data-id="playthrough_21_3" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Scared_Outsider">scared outsider</a> to have a new clan member</li>
+                     <li data-id="playthrough_21_4" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Poisoned_Outsider">poisoned outsider</a> to have a new clan member</li>
+                     <li data-id="playthrough_21_5" class="f_none">Befriended a <a href="https://ancestors.fandom.com/wiki/Recruiting#Injured_Outsider">injured outsider</a> to have a new clan member</li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Crocodile"><a href="#Astute_Dominator_of_the_Crocodile_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Astute Dominator of the Crocodile</a> <span id="playthrough_totals_22"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Crocodile_col" class="collapse in">
+                     <li data-id="playthrough_22_1" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_22_2" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
+                     <li data-id="playthrough_22_3" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_22_4" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_22_5" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_22_6" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_22_7" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
+                     <li data-id="playthrough_22_8" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
+                     <li data-id="playthrough_22_9" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                     <li data-id="playthrough_22_10" class="f_none">Made the Thorbjarnarson's Crocodile kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Elephant"><a href="#Astute_Dominator_of_the_Elephant_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Miocene_Elephant">Astute Dominator of the Elephant</a> <span id="playthrough_totals_23"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Elephant_col" class="collapse in">
+                     <li data-id="playthrough_23_1" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_23_2" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
+                     <li data-id="playthrough_23_3" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_23_4" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_23_5" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_23_6" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_23_7" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
+                     <li data-id="playthrough_23_8" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                     <li data-id="playthrough_23_9" class="f_none">Made the Miocene Elephant kill the <a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Miocene White Rhinoceros</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Hippopotamus"><a href="#Astute_Dominator_of_the_Hippopotamus_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Hippopotamus">Astute Dominator of the Hippopotamus</a> <span id="playthrough_totals_24"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Hippopotamus_col" class="collapse in">
+                     <li data-id="playthrough_24_1" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
+                     <li data-id="playthrough_24_2" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_24_3" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_24_4" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
+                     <li data-id="playthrough_24_5" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
+                     <li data-id="playthrough_24_6" class="f_none">Made the Hippopotamus kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Hyena"><a href="#Astute_Dominator_of_the_Hyena_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Hyena">Astute Dominator of the Hyena</a> <span id="playthrough_totals_25"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Hyena_col" class="collapse in">
+                     <li data-id="playthrough_25_1" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_25_2" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
+                     <li data-id="playthrough_25_3" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_25_4" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_25_5" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_25_6" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                     <li data-id="playthrough_25_7" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                     <li data-id="playthrough_25_8" class="f_none">Made the Hyena kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Jackal"><a href="#Astute_Dominator_of_the_Jackal_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Astute Dominator of the Jackal</a> <span id="playthrough_totals_26"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Jackal_col" class="collapse in">
+                     <li data-id="playthrough_26_1" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
+                     <li data-id="playthrough_26_2" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_26_3" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_26_4" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                     <li data-id="playthrough_26_5" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                     <li data-id="playthrough_26_6" class="f_none">Made the Black-Backed Jackal kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Machairodus"><a href="#Astute_Dominator_of_the_Machairodus_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Machairodus">Astute Dominator of the Machairodus</a> <span id="playthrough_totals_27"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Machairodus_col" class="collapse in">
+                     <li data-id="playthrough_27_1" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_27_2" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Thorbjarnarson%27s_Crocodile">Thorbjarnarson's Crocodile</a></li>
+                     <li data-id="playthrough_27_3" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
+                     <li data-id="playthrough_27_4" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_27_5" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_27_6" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_27_7" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_27_8" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
+                     <li data-id="playthrough_27_9" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/African_Rock_Python">African Rock Python</a></li>
+                     <li data-id="playthrough_27_10" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Megarian_Banded_Centipede">Megarian Banded Centipede</a></li>
+                     <li data-id="playthrough_27_11" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                     <li data-id="playthrough_27_12" class="f_none">Made the Machairodus kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Otter"><a href="#Astute_Dominator_of_the_Otter_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Astute Dominator of the Otter</a> <span id="playthrough_totals_28"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Otter_col" class="collapse in">
+                     <li data-id="playthrough_28_1" class="f_none">Made the Miocene African Otter kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Rock_Python"><a href="#Astute_Dominator_of_the_Rock_Python_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/African_Rock_Python">Astute Dominator of the Rock Python</a> <span id="playthrough_totals_29"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Rock_Python_col" class="collapse in">
+                     <li data-id="playthrough_29_1" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
+                     <li data-id="playthrough_29_2" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_29_3" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_29_4" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
+                     <li data-id="playthrough_29_5" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Miocene_African_Otter">Miocene African Otter</a></li>
+                     <li data-id="playthrough_29_6" class="f_none">Made the African Rock Python kill the <a href="https://ancestors.fandom.com/wiki/Giant_Warthog">Giant Warthog</a></li>
+                  </ul>
+                  <h3 id="Astute_Dominator_of_the_Rhinoceros"><a href="#Astute_Dominator_of_the_Rhinoceros_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Miocene_White_Rhinoceros">Astute Dominator of the Rhinoceros</a> <span id="playthrough_totals_30"></span></h3>
+                  <ul id="Astute_Dominator_of_the_Rhinoceros_col" class="collapse in">
+                     <li data-id="playthrough_30_1" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/African_Buffalo">African Buffalo</a></li>
+                     <li data-id="playthrough_30_2" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Eastern_Green_Mamba">Eastern Green Mamba</a></li>
+                     <li data-id="playthrough_30_3" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Black_Mamba">Black Mamba</a></li>
+                     <li data-id="playthrough_30_4" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Hyena">Hyena</a></li>
+                     <li data-id="playthrough_30_5" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Black-Backed_Jackal">Black-Backed Jackal</a></li>
+                     <li data-id="playthrough_30_6" class="f_none">Made the Miocene White Rhinoceros kill the <a href="https://ancestors.fandom.com/wiki/Machairodus">Machairodus</a></li>
+                  </ul>
+                  <h3 id="Territorial_Dominance"><a href="#Territorial_Dominance_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Settle">Territorial Dominance</a> <span id="playthrough_totals_31"></span></h3>
+                  <ul id="Territorial_Dominance_col" class="collapse in">
+                     <li data-id="playthrough_31_1" class="f_none">Established a new Clan Settlement for a clan of between 2 and 3 clan members</a></li>
+                     <li data-id="playthrough_31_2" class="f_none">Established a new Clan Settlement for a clan of between 4 and 6 clan members</a></li>
+                     <li data-id="playthrough_31_3" class="f_none">Established a new Clan Settlement for a clan of between 7 and 9 clan members</a></li>
+                     <li data-id="playthrough_31_4" class="f_none">Established a new Clan Settlement for a clan of between 10 and 12 clan members</a></li>
+                     <li data-id="playthrough_31_5" class="f_none">Established a new Clan Settlement for a clan of between 13 and 15 clan members</a></li>
+                     <li data-id="playthrough_31_6" class="f_none">Established a new Clan Settlement for a clan of between 16 and 18 clan members</a></li>
+                  </ul>
+                  <h3 id="Craftsmanship_Pioneer"><a href="#Craftsmanship_Pioneer_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Tools">Craftsmanship Pioneer</a> <span id="playthrough_totals_32"></span></h3>
+                  <ul id="Craftsmanship_Pioneer_col" class="collapse in">
+                     <li data-id="playthrough_32_1" class="f_none">Successfully crafted a <a href="https://ancestors.fandom.com/wiki/Basalt_Chopper">Basalt Chopper</a> at least 5 times</li>
+                     <li data-id="playthrough_32_2" class="f_none">Successfully crafted a <a href="https://ancestors.fandom.com/wiki/Sharpened_Stick">Sharpened Stick</a> at least 5 times</li>
+                     <li data-id="playthrough_32_3" class="f_none">Successfully crafted a <a href="https://ancestors.fandom.com/wiki/Granite_Grinder">Granite Grinder</a> at least 5 times</li>
+                     <li data-id="playthrough_32_4" class="f_none">Successfully crafted an <a href="https://ancestors.fandom.com/wiki/Basalt_Chopper">Obsidian Scraper</a> at least 5 times</li>
+                  </ul>
+                  <h3 id="Advanced_Problem_Solver"><a href="#Advanced_Problem_Solver_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Gathering_Spot">Advanced Problem Solver</a> <span id="playthrough_totals_33"></span></h3>
+                  <ul id="Advanced_Problem_Solver_col" class="collapse in">
+                     <li data-id="playthrough_33_1" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Liftable_Rock">Liftable Rock</a> with the right tool at least twice</li>
+                     <li data-id="playthrough_33_2" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Hole_To_Poke">Hole To Poke</a> with the right tool at least twice</li>
+                     <li data-id="playthrough_33_3" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Fishing_Spot">Fishing Spot</a> with the right tool at least twice</li>
+                     <li data-id="playthrough_33_4" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Termite_Mound">Termite Mound</a> with the right tool at least twice</li>
+                     <li data-id="playthrough_33_5" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Beehive">Beehive</a> with the right tool at least twice</li>
+                     <li data-id="playthrough_33_6" class="f_none">Acted on a <a href="https://ancestors.fandom.com/wiki/Carcass">Carcass</a> of any sort with the right tool at least twice</li>
+                  </ul>
+                  <h3 id="Maturing_Hunter"><a href="#Maturing_Hunter_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Animals#Wild_Animals">Maturing Hunter</a> <span id="playthrough_totals_34"></span></h3>
+                  <ul id="Maturing_Hunter_col" class="collapse in">
+                     <li data-id="playthrough_34_1" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Dorcas_Gazelle">Dorcas Gazelle</a></li>
+                     <li data-id="playthrough_34_2" class="f_none">Killed a <a href="https://ancestors.fandom.com/wiki/Miocene_African_Horse">Miocene African Horse</a></li>
+                  </ul>
+                  <h3 id="Gifted_For_Associative_Learnings"><a href="#Gifted_For_Associative_Learnings_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Items">Gifted For Associative Learnings</a> <span id="playthrough_totals_35"></span></h3>
+                  <ul id="Gifted_For_Associative_Learnings_col" class="collapse in">
+                     <li data-id="playthrough_35_1" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Aloe_Sap_Paste">Aloe Sap Paste's</a> properties by application at least twice</li>
+                     <li data-id="playthrough_35_2" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Horsetail_Paste">Horsetail Paste's</a> properties by application at least twice</li>
+                     <li data-id="playthrough_35_3" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Honey">Honey's</a> properties by application at least twice</li>
+                     <li data-id="playthrough_35_4" class="f_none">Having used <a href="https://ancestors.fandom.com/wiki/Kapok_Fiber">Kapok Fiber's</a> properties by application at least twice</li>
+                  </ul>
+                  <h3 id="Leading_Tool_User_-_Rocks"><a href="#Leading_Tool_User_-_Rocks_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Items#Rocks">Leading Tool User - Rocks</a> <span id="playthrough_totals_36"></span></h3>
+                  <ul id="Leading_Tool_User_-_Rocks_col" class="collapse in">
+                     <li data-id="playthrough_36_1" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Basalt">Basalt</a> as a tool at least twice</li>
+                     <li data-id="playthrough_36_2" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Basalt_Chopper">Basalt Chopper</a> as a tool at least twice</li>
+                     <li data-id="playthrough_36_3" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Granite_Rock">Granite Rock</a> as a tool at least twice</li>
+                     <li data-id="playthrough_36_4" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Granite_Grinder">Granite Grinder</a> as a tool at least twice</li>
+                     <li data-id="playthrough_36_5" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Obsidian">Obsidian</a> as a tool at least twice</li>
+                     <li data-id="playthrough_36_6" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Obsidian_Scraper">Obsidian Scraper</a> as a tool at least twice</li>
+                  </ul>
+                  <h3 id="Leading_Tool_User_-_Wood_and_Vegetal"><a href="#Leading_Tool_User_-_Wood_and_Vegetal_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Items#Wood">Leading Tool User - Wood and Vegetal</a> <span id="playthrough_totals_37"></span></h3>
+                  <ul id="Leading_Tool_User_-_Wood_and_Vegetal_col" class="collapse in">
+                     <li data-id="playthrough_37_1" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Dead_Branch">Dead Branch</a> as a tool at least twice</li>
+                     <li data-id="playthrough_37_2" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Stick">Stick</a> as a tool at least twice</li>
+                     <li data-id="playthrough_37_3" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Sharpened_Stick">Sharpened Stick</a> as a tool at least twice</li>
+                     <li data-id="playthrough_37_4" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Natal_Grass_Cycad">Natal Grass Cycad</a> as a tool at least twice</li>
+                     <li data-id="playthrough_37_5" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Natal_Grass_Cycad%27s_Stem">Natal Grass Cycad's Stem</a> as a tool at least twice</li>
+                     <li data-id="playthrough_37_6" class="f_none">Used the <a href="https://ancestors.fandom.com/wiki/Thornbush">Thornbush</a> as a tool at least twice</li>
+                  </ul>
+                  <h3 id="Maximized_Neuronal_Development_-_Early_Phases"><a href="#Maximized_Neuronal_Development_-_Early_Phases_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Neuronal">Maximized Neuronal Development - Early Phases</a> <span id="playthrough_totals_38"></span></h3>
+                  <ul id="Maximized_Neuronal_Development_-_Early_Phases_col" class="collapse in">
+                     <li data-id="playthrough_38_1" class="f_none">Reinforced your Lineage's neuronal development - Early phase 1</li>
+                     <li data-id="playthrough_38_2" class="f_none">Reinforced your Lineage's neuronal development - Early phase 2</li>
+                     <li data-id="playthrough_38_3" class="f_none">Reinforced your Lineage's neuronal development - Early phase 3</li>
+                  </ul>
+                  <h3 id="Maximized_Neuronal_Development_-_Maturing_Phases"><a href="#Maximized_Neuronal_Development_-_Maturing_Phases_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Neuronal">Maximized Neuronal Development - Maturing Phases</a> <span id="playthrough_totals_39"></span></h3>
+                  <ul id="Maximized_Neuronal_Development_-_Maturing_Phases_col" class="collapse in">
+                     <li data-id="playthrough_39_1" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 1</li>
+                     <li data-id="playthrough_39_2" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 2</li>
+                     <li data-id="playthrough_39_3" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 3</li>
+                     <li data-id="playthrough_39_4" class="f_none">Reinforced your Lineage's neuronal development - Maturing phase 4</li>
+                  </ul>
+                  <h3 id="Maximized_Neuronal_Development_-_Blooming_Phases"><a href="#Maximized_Neuronal_Development_-_Blooming_Phases_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Neuronal">Maximized Neuronal Development - Blooming Phases</a> <span id="playthrough_totals_40"></span></h3>
+                  <ul id="Maximized_Neuronal_Development_-_Blooming_Phases_col" class="collapse in">
+                     <li data-id="playthrough_40_1" class="f_none">Reinforced your Lineage's neuronal development - Blooming phase 1</li>
+                     <li data-id="playthrough_40_2" class="f_none">Reinforced your Lineage's neuronal development - Blooming phase 2</li>
+                     <li data-id="playthrough_40_3" class="f_none">Reinforced your Lineage's neuronal development - Blooming phase 3</li>
+                  </ul>
+                  <h3 id="Emergence_of_Scientific_Thinking"><a href="#Emergence_of_Scientific_Thinking_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Medicine">Emergence of Scientific Thinking</a> <span id="playthrough_totals_41"></span></h3>
+                  <ul id="Emergence_of_Scientific_Thinking_col" class="collapse in">
+                     <li data-id="playthrough_41_1" class="f_none">Cured yourself from a <a href="https://ancestors.fandom.com/wiki/Venom_Poisoning">Venom Poisoning</a> at least 2 times</li>
+                     <li data-id="playthrough_41_2" class="f_none">Cured yourself from a <a href="https://ancestors.fandom.com/wiki/Food_Poisoning">Food Poisoning</a> at least 2 times</li>
+                  </ul>
+                  <h3 id="Foundation_of_Medical_Insight"><a href="#Foundation_of_Medical_Insight_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Medicine">Foundation of Medical Insight</a> <span id="playthrough_totals_42"></span></h3>
+                  <ul id="Foundation_of_Medical_Insight_col" class="collapse in">
+                     <li data-id="playthrough_42_1" class="f_none">Healed yourself from a <a href="https://ancestors.fandom.com/wiki/Injury#Stage_1">Minor Injury</a> at least 5 times</li>
+                     <li data-id="playthrough_42_2" class="f_none">Healed yourself from a <a href="https://ancestors.fandom.com/wiki/Injury#Stage_2">Major Injury</a> at least 5 times</li>
+                     <li data-id="playthrough_42_3" class="f_none">Healed yourself from a <a href="https://ancestors.fandom.com/wiki/Bleeding">Bleeding Injury</a> at least 5 times</li>
+                  </ul>
+                  <h3 id="Adaptive_Metabolism"><a href="#Adaptive_Metabolism_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://ancestors.fandom.com/wiki/Food">Adaptive Metabolism</a> <span id="playthrough_totals_43"></span></h3>
+                  <ul id="Adaptive_Metabolism_col" class="collapse in">
+                     <li data-id="playthrough_43_1" class="f_none">Assimilated nutrients from the Drupe kind of food</li>
+                     <li data-id="playthrough_43_2" class="f_none">Assimilated nutrients from the Berry kind of food</li>
+                     <li data-id="playthrough_43_3" class="f_none">Assimilated nutrients from the Root kind of food</li>
+                     <li data-id="playthrough_43_4" class="f_none">Assimilated nutrients from the Zygote kind of food</li>
+                     <li data-id="playthrough_43_5" class="f_none">Assimilated nutrients from the Mammal kind of food</li>
+                     <li data-id="playthrough_43_6" class="f_none">Assimilated nutrients from the Oviparous kind of food</li>
+                     <li data-id="playthrough_43_7" class="f_none">Assimilated nutrients from the Insect kind of food</li>
+                     <li data-id="playthrough_43_8" class="f_none">Assimilated nutrients from the Eumycota kind of food</li>
+                     <li data-id="playthrough_43_9" class="f_none">Assimilated nutrients from the Cotyledon kind of food</li>
+                     <li data-id="playthrough_43_10" class="f_none">Assimilated nutrients from the Vegetal kind of food</li>
+                     <li data-id="playthrough_43_11" class="f_none">Assimilated nutrients from the Mollusk kind of food</li>
+                  </ul>
+               </div>
+               <!-- END Walkthrough -->
+            </div>
+            <div class="tab-pane" id="tabChecklists">
+               <div class="form-group">
+                  <input type="search" id="item_search" class="form-control" placeholder="Start typing to filter results..." />
+               </div>
+            </div>
+            <div class="tab-pane" id="tabWeaponsShields">
+               <div class="form-group">
+                  <input type="search" id="weapons_search" class="form-control" placeholder="Start typing to filter results..." />
+               </div>
+            </div>
+            <div class="tab-pane" id="tabArmors">
+               <div class="form-group">
+                  <input type="search" id="armors_search" class="form-control" placeholder="Start typing to filter results..." />
+               </div>
+            </div>
+            <div class="tab-pane" id="tabOptions">
+               <h2>Options</h2>
+               <!-- Theme Selection -->
+               <div class="row">
+                  <div class="col col-xs-12 col-sm-4 col-md-6">
+                     <h4>Theme selection:</h4>
                   </div>
-                </div>
-              </form>
+                  <div class="col col-xs-12 col-sm-8 col-md-6">
+                     <select class="form-control" id="themes">
+                        <!-- Gets filled by jQuery. -->
+                     </select>
+                  </div>
+               </div>
+               <!-- Profile Selection -->
+               <div class="row">
+                  <div class="col col-xs-12 col-sm-4 col-md-6">
+                     <h4>Profile management:</h4>
+                  </div>
+                  <div class="col col-xs-12 col-sm-8 col-md-6">
+                     <form class="form-inline input-group pull-right">
+                        <select class="form-control" id="profiles"></select>
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="profileAdd">Add</button>
+                        <button class="btn btn-default" type="button" id="profileEdit">Edit</button>
+                        </span>
+                     </form>
+                  </div>
+               </div>
+               <!-- Import/Export -->
+               <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-6">
+                     <h4>Data import/export:</h4>
+                  </div>
+                  <div class="col-xs-12 col-sm-8 col-md-6">
+                     <form class="form-inline">
+                        <span class="btn-group pull-left">
+                        <button class="btn btn-default" type="button" id="profileImport">Import file</button>
+                        <button class="btn btn-default" type="button" id="profileExport">Export file</button>
+                        </span>
+                        <span class="btn-group pull-right">
+                        <button class="btn btn-default" type="button" id="profileImportText">Import textbox</button>
+                        <button class="btn btn-default" type="button" id="profileExportText">Export clipboard</button>
+                        </span>
+                     </form>
+                  </div>
+                  <div class="col col-xs-12">
+                     <textarea id="profileText" class="form-control"></textarea>
+                  </div>
+               </div>
             </div>
-            <div class="modal-footer">
-              <a href="#" id="profileModalClose" class="btn btn-default" data-dismiss="modal">Close</a>
-              <a href="#" id="profileModalAdd" class="btn btn-primary" data-dismiss="modal">Add</a>
-              <a href="#" id="profileModalUpdate" class="btn btn-primary">Update</a>
-              <a href="#" id="profileModalDelete" class="btn btn-danger">Delete</a>
+            <div id="profileModal" class="modal fade" tabindex="-1" role="dialog">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 id="profileModalTitle" class="modal-title">Profile</h3>
+                     </div>
+                     <div class="modal-body">
+                        <form class="form-horizontal">
+                           <div class="control-group">
+                              <label class="control-label" for="profileModalName">Name</label>
+                              <div class="controls">
+                                 <input type="text" class="form-control" id="profileModalName" placeholder="Enter profile name">
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="modal-footer">
+                        <a href="#" id="profileModalClose" class="btn btn-default" data-dismiss="modal">Close</a>
+                        <a href="#" id="profileModalAdd" class="btn btn-primary" data-dismiss="modal">Add</a>
+                        <a href="#" id="profileModalUpdate" class="btn btn-primary">Update</a>
+                        <a href="#" id="profileModalDelete" class="btn btn-danger">Delete</a>
+                     </div>
+                  </div>
+                  <!-- /.modal-content -->
+               </div>
+               <!-- /.modal-dialog -->
             </div>
-          </div>
-          <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
+            <!-- /.modal -->
+         </div>
+         <!-- tab-content -->
       </div>
-      <!-- /.modal -->
-    </div>
-    <!-- tab-content -->
-  </div>
-  <!-- container -->
-  
-  <a class="btn btn-default btn-sm fadingbutton back-to-top">Back to Top <span class="glyphicon glyphicon-arrow-up"></span></a>
-	
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
-  <script src="js/jquery.highlight.js"></script>
-  <script src="js/main.js"></script>
-</body>
+      <!-- container -->
+      <a class="btn btn-default btn-sm fadingbutton back-to-top">Back to Top <span class="glyphicon glyphicon-arrow-up"></span></a>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
+      <script src="js/jquery.highlight.js"></script>
+      <script src="js/main.js"></script>
+   </body>
 </html>
